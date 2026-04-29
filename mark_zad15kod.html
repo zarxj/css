@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<h1>Kod HTML i CSS</h1>
+<textarea rows="15" cols="80" readonly>
+<title>Markowski Zad15_html</title> 
+<html> 
+  <head> 
+           <meta charset="utf-8"> 
+    <LINK href="zad15.css" rel="stylesheet" type="text/CSS"> 
+  </head> 
+ <body> 
+Autor: Oliwier Klasa 2F<br>
+mam na imię Oliwier czyli siedem liter O=7<br>
+mam na nazwisko Markowski czyli dziewiec liter M=9<br>
+mój numer z dziennika to 16<br>
+data urodzenia: 04.05.2010, numer buta=44<br>
+numer miesiąca urodzenia=5 (maj)<br>
+numer dnia urodzenia=4 (czwarty dzień)<br>
+
+========================<br>
+definiowanie koloru znacznika p<br>
+Zmiana kolor liter --> sposobem pierwszym z tabeli/instrukcja<br>
+100+numer miesiąca urodzenia=100+5=(105)10=(#69)H<br>
+150+numer dnia urodzenia=150+5=(155)10=(9B)H<br>
+50+numer buta=50+44=(94)10=(#5E)H<br>
+czyli kolor w HEXA #699B5E dla znacznika p<br>
+wypisz: znacznik p --> {color:#699B5E;}, wielkość liter 10+O=17mm<br>
+
+========================<br>
+definiowanie koloru znacznika body<br>
+Zmiana kolor liter --> sposobem czwartym z tabeli/instrukcja<br>
+definiowanie koloru znacznika body<br>
+R=125+numer dnia urodzenia=125+4=129 R=129/255*100%=50%<br>
+G=50+numer buta=50+44=94 G=94/255*100%=36%<br>
+B=200+numer miesiąca urodzenia=200+5=205 B=205/255*100%=80%<br>
+czyli kolor w RGB %,%,% dla znacznika body<br>
+znacznik body --> {color: rgb(50%,36%,80%);}, wielkość liter 10+O=17mm<br>
+
+========================<br>
+<p> xP (Igonorowanie) </p> <br>
+:C (Duży smutek)
+<p> :P (Pokazanie języka) </p> <br>
+:O (Zdziwienie)
+<p> :3 (Zadowolenie) </p> <br>
+:| (Brak emocji)
+ </body> 
+</html>
+
+<!--  Markowski Zad15_html  --> 
+    </textarea>
+<br><br><br>
+<h1>Kod CSS</h1>
+<textarea rows="5" cols="80" readonly>
+p  
+{ 
+ color:    #699B5E; 
+ font-size:  17px; 
+} 
+body  
+{ 
+ color:    rgb(50%,36%,80%);
+ font-size:  17px; 
+} 
+/*  Markowski Zad15_css  */ 
+</textarea>
+</body>
+</html>
